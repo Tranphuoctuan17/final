@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin Câu lạc bộ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f3f6fb;
+            color: #333;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .club-info {
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+            justify-content: center;
+        }
+
+        .right {
+            background-color: #fafafa;
+            padding: 30px;
+            border-radius: 8px;
+            position: relative;
+            text-align: center;
+            padding-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            width: 300px;
+        }
+
+        .club-logo {
+            width: 100%;
+            height: 100px; /* Adjust the height of the image */
+            object-fit: cover; /* Ensures the image fills the container while maintaining its aspect ratio */
+            border-radius: 8px; /* Rounded corners for the image */
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-top: 15px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .join-button {
+            background-color: #04a8d2;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease;
+        }
+
+        .join-button:hover {
+            background-color: #32d3ff;
+        }
+
+        /* Responsive design for small screens */
+        @media (max-width: 768px) {
+            .club-info {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .right {
+                width: 100%;
+                padding-top: 80px;
+            }
+
+            .join-button {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Thông tin Câu lạc bộ</h1>
+
+        <div class="club-info">
+            <div class="right">
+                <!-- Hiển thị ảnh hình chữ nhật cho câu lạc bộ -->
+                <img src="https://via.placeholder.com/300x200" alt="Club Logo" class="club-logo">
+                <p><strong>CLB:</strong> Tennis Cựu sinh viên</p>
+                <p><strong>Số lượng thành viên:</strong> 4</p>
+                <p><strong>Chủ tịch:</strong> Đỗ Văn Sang</p>
+                <button class="join-button">Xem chi tiết</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

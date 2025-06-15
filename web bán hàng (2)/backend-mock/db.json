@@ -1,0 +1,48 @@
+{
+  "orders": [],
+  "health": { "status": "OK" },
+  "products": [
+    {
+      "id": "1",
+      "title": "Phở bò tái",
+      "img": "https://example.com/images/pho-bo.jpg",
+      "price": 50000,
+      "desc": "Phở bò tái thơm ngon với nước dùng đậm đà",
+      "category": "Phở",
+      "status": 1
+    },
+    {
+      "id": "2",
+      "title": "Bún chả",
+      "img": "https://example.com/images/bun-cha.jpg",
+      "price": 45000,
+      "desc": "Bún chả Hà Nội với chả nướng thơm lừng",
+      "category": "Bún",
+      "status": 1
+    }
+  ],
+  "users": [
+    {
+      "phone": "1234567890",
+      "fullname": "Nguyễn Văn A",
+      "password": "123456",
+      "address": "123 Đường Láng, Hà Nội",
+      "email": "nva@example.com",
+      "status": 1,
+      "join": "2025-05-16T04:03:00.000Z",
+      "cart": [],
+      "userType": 0
+    }
+  ],
+  "orderDetails": [],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Phở"
+    },
+    {
+      "id": "2",
+      "name": "Bún"
+    }
+  ]
+}
